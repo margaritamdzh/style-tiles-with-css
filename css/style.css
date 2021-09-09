@@ -1,41 +1,33 @@
 /* change these */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Mulish&display=swap");
 
 * {
   box-sizing: border-box;
 }
-
-/* THIS IS ALL meant for editing. You might want to do it differently, 
-name the variables differently, 
-use the fonts in other ways in the font hierarchy etc. */
-
-/* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: orange;
+  --link-color: rgb(161, 108, 9);
+  --link-hover-color: rgb(44, 13, 13);
+  --color-4: brown;
+  --color-5: rgb(4, 4, 36);
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Boogaloo";
+  --secondary-font: "Mulish";
   --main-text-color: #000;
 
   --white-space: 1rem;
 }
 
 button {
-  transition: all 3s;
+  transition: all 0.01s;
 }
 a {
-  transition: all 3s;
+  transition: all 0.01s;
 }
 button:hover {
   background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  transform: scale(2);
 }
 
 button:active {
@@ -152,19 +144,19 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/paw.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
+  background: url(../img/pinktexture.jpg) top left repeat;
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/paw.jpg) top left repeat;
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/texture.jpg) top left repeat;
 }
 
 .images ul {
